@@ -1,8 +1,8 @@
-// Say hello to the user
+// improved hello
 function sayHello(firstName, lastName) {
-    const message = `Hello, ${firstName} ${lastName}!`;
-    return message;
-  }
+  return `Nice to meet you, ${firstName} ${lastName}!`;
+} 
   
-  // TODO: ask user for first and last name
-  // TODO: call sayHello() and show its result
+const firstName = prompt(" May I know your first name? ");
+const lastName = prompt(" And your last name? ");
+console.log(sayHello(firstName, lastName));
