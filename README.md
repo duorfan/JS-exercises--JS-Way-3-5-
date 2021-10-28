@@ -1,6 +1,7 @@
 # JS exercises (JS Way 3-5)
  
 Exercises:
+
 Ch3 - Number comparison
 
 
